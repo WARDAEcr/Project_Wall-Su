@@ -116,4 +116,4 @@ async def on_message(message):
         await message.channel.send("병1신을 만들어주겠다")
         
         access_token = os.environ['BOT_TOKEN']
-        bot.run('MTAwNzc2NTg5NDk5MjI1MzA5OQ.GK11JG.dB7WFpFlRXOKPMRAaXMHsAmK6XcrNP7vdysUSM') #<- insert your bot token!
+        bot.run(access_token) #<- insert your bot token!

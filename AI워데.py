@@ -1,5 +1,4 @@
 import discord
-import osㅣ
 from discord.ext import commands
 
 game = discord.Game("폭8중")
@@ -114,6 +113,4 @@ async def on_message(message):
         file = discord.File("picture\김근육.jpg")
         await message.channel.send(file=file)
         await message.channel.send("병1신을 만들어주겠다")
-        
-        access_token = os.environ['BOT_TOKEN']
-        bot.run(access_token) #<- insert your bot token!
+        bot.run('MTAwNzc2NTg5NDk5MjI1MzA5OQ.GK11JG.dB7WFpFlRXOKPMRAaXMHsAmK6XcrNP7vdysUSM') #<- insert your bot token!
